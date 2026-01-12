@@ -1,5 +1,3 @@
-feather.replace();
-
 const templateData = {
   template1: {
     title: "Template High-Conversion",

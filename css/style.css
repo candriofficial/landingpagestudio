@@ -420,4 +420,8 @@ p {
     margin: 2vh auto;
     padding: 10px;
   }
+
+  .feature-item{
+    text-align: center;
+  }
 }
