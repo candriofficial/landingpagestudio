@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Studio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Candri<span>Landing</span></div>
+      <div class="btn-group">
+        <a
+          href="https://wa.me/6282166983566?text=Halo%20Candri,%20Saya%20melihat%20kontak%20anda%20dari%20Landing%20Page%20Studio."
+          class="btn-primary"
+          >Via WhatsApp</a
+        >
+      </div>
+    </nav>
+
+    <main class="hero">
+      <div class="container">
+        <div class="badge">Result-Oriented Studio</div>
+        <h1>Saya Candri, Founder <span>Candri Landing</span></h1>
+        <h2>
+          Spesialis pembuatan landing page yang fokus meningkatkan konversi
+          WhatsApp bisnis Anda.
+        </h2>
+        <p>
+          Sederhana, cepat, dan efektif. Kami menghilangkan distraksi untuk
+          memastikan calon pelanggan langsung menghubungi Anda.
+        </p>
+
+        <div class="btn-group">
+          <a
+            href="https://wa.me/6282166983566?text=Halo%20Candri,%20saya%20tertarik%20buat%20landing%20page"
+            class="btn-primary"
+            >Hubungi Via WhatsApp</a
+          >
+          <a href="#template" class="btn-secondary">Lihat Template</a>
+        </div>
+      </div>
+    </main>
+
+    <main class="template" id="template">
+      <div class="template-header">
+        <span class="badge">Katalog Template</span>
+        <h2>Pilih Desain Untuk Bisnis Anda</h2>
+        <p>Semua template sudah dioptimalkan untuk kecepatan dan konversi.</p>
+      </div>
+
+      <div class="template-grid">
+        <div class="template-card" onclick="openModal('template1')">
+          <div class="card-image">
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=80"
+              alt="Landing Page 1"
+            />
+          </div>
+          <div class="card-info">
+            <h3>Template High-Conversion</h3>
+            <p>Cocok untuk jualan produk fisik atau jasa.</p>
+          </div>
+        </div>
+
+        <div class="template-card" onclick="openModal('template2')">
+          <div class="card-image">
+            <img
+              src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=500&q=80"
+              alt="Landing Page 2"
+            />
+          </div>
+          <div class="card-info">
+            <h3>Template Personal Branding</h3>
+            <p>Khusus untuk mentor, kursus, atau influencer.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="previewModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="slider-container">
+          <div class="slider-track" id="sliderTrack"></div>
+        </div>
+        <div class="modal-info">
+          <h3 id="modalTitle">Nama Template</h3>
+          <p>Geser untuk melihat tampilan lengkap.</p>
+          <div class="btn-group">
+            <a id="orderBtn" href="#" class="btn-primary">Pesan Template Ini</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="features">
+      <div class="container">
+        <span class="badge">Keunggulan</span>
+        <h2>Mengapa Candri Landing?</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="icon">⚡</div>
+            <h3>Super Cepat</h3>
+            <p>Loading cepat agar calon pelanggan tidak kabur duluan.</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">📱</div>
+            <h3>Mobile Friendly</h3>
+            <p>Tampilan sempurna di semua jenis ukuran layar HP.</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">🎯</div>
+            <h3>Fokus Konversi</h3>
+            <p>Desain diarahkan untuk menekan tombol WhatsApp Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">Candri<span>Landing</span></div>
+        <p>&copy; 2026 Candri Landing Studio. Study every day.</p>
+        <div class="footer-links">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
