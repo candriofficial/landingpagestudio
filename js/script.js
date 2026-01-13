@@ -1,13 +1,12 @@
 const templateData = {
   template1: {
-    title: "Template High-Conversion",
+    title: "Dashboard Keuangan untuk Monitoring & Analisis Dasar",
     images: [
-      "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      "./img/analisis-data.png",
+      "./img/image/analisis-data1.png"
     ],
     waLink:
-      "https://wa.me/6282166983566?text=Halo%20Candri,%20saya%20mau%20beli%20Template%20High%20Conversion",
+      "https://wa.me/6282166983566?text=Halo%20Candri,%20saya%20mau%20beli%20Template%20Dashboard%20Keuangan%20untuk%20Monitoring%20dan%20Analisis%20Dasar,%20dengan%20harga%20Rp%20200k%20-%20400k.",
   },
   template2: {
     title: "Template Personal Branding",

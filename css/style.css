@@ -195,6 +195,13 @@ p {
   font-size: 0.8rem;
   color: #777;
   text-align: left;
+  margin-bottom: 1rem
+}
+
+.card-info b{
+  font-size: 0.9rem;
+  color: #777;
+  text-align: left;
 }
 
 /* --- FEATURES SECTION --- */
